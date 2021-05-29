@@ -1,0 +1,6 @@
+C:\Users\siva\Downloads>ssh -i "sample.pem" ec2-user@192.168.1.82
+C:\Users\siva\Downloads>$path ="sample.pem"
+C:\Users\siva\Downloads>icacls.exe $path /reset
+processed file success:sample .pem
+C:\Users\siva\Downloads>icacle.exe $path /GRANT:R "$($env:USERNAME):(R)"
+C:\Users\siva\Downloads>icacle.exe $path /inheritance:r
